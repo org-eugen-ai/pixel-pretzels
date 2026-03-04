@@ -67,7 +67,7 @@ export default async function BrandStory() {
 
           {/* Visual / Stats Panel (desktop) */}
           <div className="relative hidden lg:block">
-            <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary to-primary-dark p-10">
+            <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary to-primary-dark p-10 pixel-grid-lg">
               {/* Decorative elements */}
               <div className="absolute -top-10 -right-10 h-40 w-40 rounded-full bg-white/5" />
               <div className="absolute -bottom-8 -left-8 h-32 w-32 rounded-full bg-accent/10" />
@@ -102,7 +102,7 @@ export default async function BrandStory() {
 
               {/* Bottom accent line */}
               <div className="mt-8 h-1 w-full rounded-full bg-white/10">
-                <div className="h-1 w-2/3 rounded-full bg-gradient-to-r from-accent to-yellow-400" />
+                <div className="h-1 w-2/3 rounded-full bg-gradient-to-r from-accent to-[#E0A84C]" />
               </div>
             </div>
           </div>

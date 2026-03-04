@@ -11,10 +11,10 @@ import { ShoppingCart, Eye } from 'lucide-react';
 import { useState } from 'react';
 
 const categoryGradients: Record<string, string> = {
-  notebooks: 'from-blue-400 via-indigo-500 to-purple-600',
-  smartphones: 'from-violet-400 via-purple-500 to-fuchsia-600',
-  printers: 'from-emerald-400 via-teal-500 to-cyan-600',
-  accessories: 'from-amber-400 via-orange-500 to-red-500',
+  notebooks: 'from-[#8B5E1A] via-[#A0712A] to-[#5C3A12]',
+  smartphones: 'from-[#3B82F6] via-[#2563EB] to-[#1D4ED8]',
+  printers: 'from-[#C8842D] via-[#B07326] to-[#8B5E1A]',
+  accessories: 'from-[#E0A84C] via-[#D4993E] to-[#C8842D]',
 };
 
 interface ProductCardProps {

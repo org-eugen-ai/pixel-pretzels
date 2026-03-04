@@ -29,7 +29,7 @@ function Footer() {
   };
 
   return (
-    <footer className="border-t border-border bg-surface" role="contentinfo">
+    <footer className="pretzel-border-top border-t border-border bg-surface" role="contentinfo">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         {/* Main footer grid */}
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -127,10 +127,10 @@ function Footer() {
           {/* Newsletter */}
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wide text-text">
-              {tHome('newsletterTitle')}
+              {tHome('newsletter.title')}
             </h3>
             <p className="mb-4 text-sm text-text-muted">
-              {tHome('newsletterDesc')}
+              {tHome('newsletter.subtitle')}
             </p>
             {subscribed ? (
               <p className="text-sm font-medium text-success">
@@ -142,7 +142,7 @@ function Footer() {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder={tHome('newsletterPlaceholder')}
+                  placeholder={tHome('newsletter.placeholder')}
                   required
                   className={cn(
                     'flex-1 rounded-lg border border-border bg-white px-3 py-2 text-sm text-text',
@@ -158,7 +158,7 @@ function Footer() {
                     'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50 focus-visible:ring-offset-2',
                   )}
                 >
-                  {tHome('newsletterButton')}
+                  {tHome('newsletter.subscribe')}
                 </button>
               </form>
             )}

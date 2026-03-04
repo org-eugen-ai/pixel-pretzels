@@ -23,7 +23,7 @@ export default function NewsletterSignup() {
   };
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-r from-accent to-accent-dark py-16 sm:py-20">
+    <section className="relative overflow-hidden bg-gradient-to-r from-primary via-primary-dark to-[#5C3A12] py-16 sm:py-20">
       {/* Background decoration */}
       <div className="absolute inset-0" aria-hidden="true">
         <div className="absolute -top-16 -left-16 h-48 w-48 rounded-full bg-white/10" />

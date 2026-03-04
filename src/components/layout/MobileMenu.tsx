@@ -57,7 +57,7 @@ function MobileMenu({ isOpen, onClose, currentLocale, onLocaleChange }: MobileMe
             animate={{ x: 0 }}
             exit={{ x: '-100%' }}
             transition={{ type: 'spring', damping: 30, stiffness: 300 }}
-            className="fixed inset-y-0 left-0 z-50 flex w-72 flex-col bg-white shadow-xl"
+            className="fixed inset-y-0 left-0 z-50 flex w-72 flex-col bg-background pixel-grid shadow-xl"
             aria-label="Mobile navigation"
           >
             {/* Header */}

@@ -1,11 +1,11 @@
 {
   "common": {
     "shopName": "Pixel Pretzels",
-    "tagline": "Technik seit 1990",
+    "tagline": "Knusprig gute Technik seit 1990",
     "addToCart": "In den Warenkorb",
     "buyNow": "Jetzt kaufen",
     "inStock": "Auf Lager",
-    "outOfStock": "Nicht verfügbar",
+    "outOfStock": "Nicht verf\u00fcgbar",
     "price": "Preis",
     "inclVat": "inkl. MwSt.",
     "currency": "EUR",
@@ -13,7 +13,7 @@
     "searchPlaceholder": "Produkte durchsuchen...",
     "learnMore": "Mehr erfahren",
     "viewAll": "Alle anzeigen",
-    "backToHome": "Zurück zur Startseite",
+    "backToHome": "Zur\u00fcck zur Startseite",
     "loading": "Wird geladen...",
     "noResults": "Keine Ergebnisse gefunden"
   },
@@ -23,8 +23,8 @@
     "notebooks": "Notebooks",
     "smartphones": "Smartphones",
     "printers": "Drucker",
-    "accessories": "Zubehör",
-    "about": "Über uns",
+    "accessories": "Zubeh\u00f6r",
+    "about": "\u00dcber uns",
     "contact": "Kontakt",
     "cart": "Warenkorb",
     "account": "Konto",
@@ -32,25 +32,65 @@
     "register": "Registrieren"
   },
   "home": {
-    "heroTitle": "Technik, die begeistert. Seit 1990.",
-    "heroSubtitle": "Notebooks, Smartphones, Drucker und mehr – von Experten aus Heilbronn für Sie ausgewählt.",
-    "heroCta": "Jetzt entdecken",
-    "featuredTitle": "Beliebte Produkte",
-    "categoriesTitle": "Unsere Kategorien",
-    "brandStoryTitle": "Über 35 Jahre Kompetenz",
-    "brandStoryText": "Was 1990 als kleiner Computerladen in der Heilbronner Innenstadt begann, ist heute ein modernes Technologieunternehmen mit einer klaren Mission: Ihnen die beste Technik mit persönlicher Beratung zu bieten. Über drei Jahrzehnte lang haben wir Trends kommen und gehen sehen – von den ersten tragbaren Computern über die Smartphone-Revolution bis hin zur vernetzten Welt von heute. Eines ist dabei immer gleich geblieben: unser Anspruch an Qualität, unser Engagement für exzellenten Service und unsere Leidenschaft für innovative Technologie. Bei Pixel Pretzels erhalten Sie nicht nur Produkte, sondern die Erfahrung und Expertise eines Teams, das Technik lebt und liebt.",
-    "trustShipping": "Kostenloser Versand",
-    "trustShippingDesc": "Ab 49€ Bestellwert",
-    "trustReturns": "30 Tage Rückgabe",
-    "trustReturnsDesc": "Kostenlose Rücksendung",
-    "trustSecure": "Sichere Zahlung",
-    "trustSecureDesc": "SSL-verschlüsselt",
-    "trustExpert": "Experten-Beratung",
-    "trustExpertDesc": "Seit 1990",
-    "newsletterTitle": "Newsletter abonnieren",
-    "newsletterDesc": "Erhalten Sie exklusive Angebote, Produktneuheiten und Technik-Tipps direkt in Ihr Postfach.",
-    "newsletterPlaceholder": "Ihre E-Mail-Adresse",
-    "newsletterButton": "Abonnieren"
+    "hero": {
+      "badge": "Frisch gebackene Innovation",
+      "title": "Technik, die begeistert.",
+      "titleHighlight": "Verdreht gut seit 1990.",
+      "subtitle": "Von knackigen Notebooks bis zu brandneuen Smartphones \u2013 Ihr Heilbronner Tech-Brezel-Laden hat alles, was Sie brauchen.",
+      "cta": "Jetzt st\u00f6bern",
+      "secondaryCta": "Was gibt\u2019s Neues?"
+    },
+    "featured": {
+      "title": "Frisch aus dem Ofen",
+      "subtitle": "Unsere beliebtesten Picks \u2013 getestet, gepr\u00fcft und kundenbew\u00e4hrt.",
+      "empty": "Gerade backt nichts. Schauen Sie bald wieder vorbei!"
+    },
+    "categories": {
+      "title": "Unsere Tech-Speisekarte",
+      "subtitle": "Jede Kategorie handverlesen und qualit\u00e4tsgepr\u00fcft von unseren Brezel-Profis.",
+      "explore": "Entdecken"
+    },
+    "brandStory": {
+      "badge": "Unsere Wurzeln",
+      "title": "\u00dcber 35 Jahre Technik & Tradition",
+      "paragraph1": "1990 er\u00f6ffnete in der Heilbronner Innenstadt ein kleiner Laden, der zwei gro\u00dfe Leidenschaften vereinte: modernste Technik und die herzliche Gastfreundschaft einer lokalen Brezelb\u00e4ckerei. Das war Pixel Pretzels \u2013 und seitdem kneten wir Innovation.",
+      "paragraph2": "Drei Jahrzehnte, tausende zufriedene Kunden und ein Rezept, das sich nie ge\u00e4ndert hat: nur die beste Technik handverlesen, mit ehrlicher Beratung servieren und immer ein warmes Gef\u00fchl hinterlassen. Keine veralteten Produkte, keine halbgaren Versprechen.",
+      "stats": {
+        "years": "Jahre Erfahrung",
+        "founded": "Gr\u00fcndung",
+        "customers": "Zufriedene Kunden",
+        "location": "Heilbronn, Deutschland"
+      }
+    },
+    "trust": {
+      "shipping": {
+        "title": "Gratis-Lieferung, ohne Haken",
+        "description": "Ab 49\u20ac Bestellwert \u2013 schneller als Teig aufgeht"
+      },
+      "returns": {
+        "title": "30 Tage Sorglos-R\u00fcckgabe",
+        "description": "Zur\u00fcck damit, ohne Knoten im Magen"
+      },
+      "secure": {
+        "title": "Sichere Zahlung, fest verschlungen",
+        "description": "SSL-verschl\u00fcsselt & brezel-versiegelt"
+      },
+      "support": {
+        "title": "Brezel-Profis am Draht",
+        "description": "Experten-Beratung seit 1990"
+      }
+    },
+    "newsletter": {
+      "badge": "Bleiben Sie dran",
+      "title": "Die frischesten Deals, direkt aus dem Ofen",
+      "subtitle": "Exklusive Angebote, hei\u00dfe Produkt-Neuheiten und Tech-Tipps \u2013 in Ihrem Postfach, bevor sie abk\u00fchlen.",
+      "placeholder": "ihre@email.de",
+      "subscribe": "Abonnieren",
+      "submitting": "Wird gebacken...",
+      "success": "Sie sind dabei!",
+      "successDetail": "Willkommen in der Pixel Pretzels Familie. Halten Sie Ihr Postfach im Auge!",
+      "privacy": "Wir respektieren Ihr Postfach. Jederzeit abbestellbar \u2013 ohne Groll, nur warme Brezeln."
+    }
   },
   "products": {
     "title": "Alle Produkte",
@@ -66,20 +106,21 @@
     "filterPrice": "Preis",
     "filterPriceMin": "Min. Preis",
     "filterPriceMax": "Max. Preis",
-    "clearFilters": "Filter zurücksetzen",
+    "clearFilters": "Filter zur\u00fccksetzen",
     "showingResults": "{count} Produkte",
     "noProducts": "Keine Produkte gefunden",
-    "addedToCart": "Zum Warenkorb hinzugefügt",
+    "addedToCart": "Zum Warenkorb hinzugef\u00fcgt",
     "specifications": "Technische Daten",
     "reviews": "Bewertungen",
     "reviewsCount": "{count} Bewertungen",
-    "relatedProducts": "Ähnliche Produkte",
-    "description": "Beschreibung"
+    "relatedProducts": "\u00c4hnliche Produkte",
+    "description": "Beschreibung",
+    "quickView": "Schnellansicht"
   },
   "cart": {
     "title": "Warenkorb",
     "empty": "Ihr Warenkorb ist leer",
-    "emptyDesc": "Entdecken Sie unsere Produkte und finden Sie die perfekte Technik für Ihre Bedürfnisse.",
+    "emptyDesc": "Entdecken Sie unsere Produkte und finden Sie die perfekte Technik f\u00fcr Ihre Bed\u00fcrfnisse.",
     "continueShopping": "Weiter einkaufen",
     "subtotal": "Zwischensumme",
     "shipping": "Versand",
@@ -89,19 +130,19 @@
     "checkout": "Zur Kasse",
     "remove": "Entfernen",
     "quantity": "Menge",
-    "itemAdded": "Artikel hinzugefügt",
+    "itemAdded": "Artikel hinzugef\u00fcgt",
     "viewCart": "Warenkorb ansehen"
   },
   "checkout": {
     "title": "Kasse",
     "shipping": "Versand",
     "payment": "Zahlung",
-    "review": "Überprüfung",
-    "confirmation": "Bestätigung",
+    "review": "\u00dcberpr\u00fcfung",
+    "confirmation": "Best\u00e4tigung",
     "shippingAddress": "Lieferadresse",
     "firstName": "Vorname",
     "lastName": "Nachname",
-    "street": "Straße",
+    "street": "Stra\u00dfe",
     "city": "Stadt",
     "postalCode": "PLZ",
     "country": "Land",
@@ -110,16 +151,16 @@
     "paymentMethod": "Zahlungsmethode",
     "creditCard": "Kreditkarte",
     "paypal": "PayPal",
-    "bankTransfer": "Überweisung",
+    "bankTransfer": "\u00dcberweisung",
     "cardNumber": "Kartennummer",
-    "expiry": "Gültig bis",
+    "expiry": "G\u00fcltig bis",
     "cvv": "CVV",
     "placeOrder": "Bestellung aufgeben",
-    "orderConfirmed": "Bestellung bestätigt!",
+    "orderConfirmed": "Bestellung best\u00e4tigt!",
     "orderNumber": "Bestellnummer",
-    "orderThankYou": "Vielen Dank für Ihre Bestellung!",
+    "orderThankYou": "Vielen Dank f\u00fcr Ihre Bestellung!",
     "continueShoppingBtn": "Weiter einkaufen",
-    "back": "Zurück",
+    "back": "Zur\u00fcck",
     "next": "Weiter",
     "required": "Pflichtfeld"
   },
@@ -128,7 +169,7 @@
     "register": "Registrieren",
     "email": "E-Mail",
     "password": "Passwort",
-    "confirmPassword": "Passwort bestätigen",
+    "confirmPassword": "Passwort best\u00e4tigen",
     "forgotPassword": "Passwort vergessen?",
     "noAccount": "Noch kein Konto?",
     "hasAccount": "Bereits ein Konto?",
@@ -138,21 +179,21 @@
     "agreeTerms": "Ich stimme den AGB zu"
   },
   "about": {
-    "title": "Über uns",
-    "subtitle": "Technik seit 1990 aus Heilbronn",
+    "title": "\u00dcber uns",
+    "subtitle": "Knusprig gute Technik seit 1990 aus Heilbronn",
     "storyTitle": "Unsere Geschichte",
-    "storyText": "Im Jahr 1990 öffnete Pixel Pretzels erstmals seine Türen in der Heilbronner Innenstadt – damals noch als kleiner Fachladen für Personal Computer. Was mit einer Handvoll Geräte und einer großen Portion Begeisterung begann, entwickelte sich über die Jahre zu einem der vertrauenswürdigsten Technologiehändler der Region. Wir haben die digitale Revolution von Anfang an mitgestaltet: von den ersten 286er-Prozessoren über den Siegeszug des Internets bis hin zu den heutigen High-End-Notebooks und Smartphones. In über 35 Jahren haben wir Tausende von Kundinnen und Kunden beraten, begleitet und mit der besten verfügbaren Technik ausgestattet. Unser Erfolgsgeheimnis ist dabei so einfach wie wirkungsvoll: Wir verbinden tiefes Fachwissen mit ehrlicher, persönlicher Beratung. Bei uns kaufen Sie nicht einfach ein Produkt – Sie profitieren von der Erfahrung eines Teams, das Technik lebt.",
+    "storyText": "Im Jahr 1990 \u00f6ffnete Pixel Pretzels erstmals seine T\u00fcren in der Heilbronner Innenstadt \u2013 damals noch als kleiner Fachladen f\u00fcr Personal Computer. Was mit einer Handvoll Ger\u00e4te und einer gro\u00dfen Portion Begeisterung begann, entwickelte sich \u00fcber die Jahre zu einem der vertrauensw\u00fcrdigsten Technologieh\u00e4ndler der Region. Wir haben die digitale Revolution von Anfang an mitgestaltet: von den ersten 286er-Prozessoren \u00fcber den Siegeszug des Internets bis hin zu den heutigen High-End-Notebooks und Smartphones. In \u00fcber 35 Jahren haben wir Tausende von Kundinnen und Kunden beraten, begleitet und mit der besten verf\u00fcgbaren Technik ausgestattet. Unser Erfolgsgeheimnis ist dabei so einfach wie wirkungsvoll: Wir verbinden tiefes Fachwissen mit ehrlicher, pers\u00f6nlicher Beratung. Bei uns kaufen Sie nicht einfach ein Produkt \u2013 Sie profitieren von der Erfahrung eines Teams, das Technik lebt.",
     "valuesTitle": "Unsere Werte",
-    "valueQuality": "Qualität",
-    "valueQualityDesc": "Wir führen ausschließlich Produkte, von deren Qualität wir selbst überzeugt sind. Jedes Gerät in unserem Sortiment wird von unseren Experten geprüft und bewertet.",
+    "valueQuality": "Qualit\u00e4t",
+    "valueQualityDesc": "Wir f\u00fchren ausschlie\u00dflich Produkte, von deren Qualit\u00e4t wir selbst \u00fcberzeugt sind. Jedes Ger\u00e4t in unserem Sortiment wird von unseren Experten gepr\u00fcft und bewertet.",
     "valueService": "Service",
-    "valueServiceDesc": "Persönliche Beratung ist für uns kein leeres Versprechen. Unser Team steht Ihnen vor, während und nach dem Kauf mit Rat und Tat zur Seite.",
+    "valueServiceDesc": "Pers\u00f6nliche Beratung ist f\u00fcr uns kein leeres Versprechen. Unser Team steht Ihnen vor, w\u00e4hrend und nach dem Kauf mit Rat und Tat zur Seite.",
     "valueExpertise": "Expertise",
-    "valueExpertiseDesc": "Über 35 Jahre Erfahrung in der Technologiebranche – wir kennen die Produkte, die Hersteller und vor allem Ihre Bedürfnisse.",
+    "valueExpertiseDesc": "\u00dcber 35 Jahre Erfahrung in der Technologiebranche \u2013 wir kennen die Produkte, die Hersteller und vor allem Ihre Bed\u00fcrfnisse.",
     "valueTrust": "Vertrauen",
-    "valueTrustDesc": "Seit 1990 vertrauen uns Kundinnen und Kunden in Heilbronn und weit darüber hinaus. Dieses Vertrauen ist unser wertvollstes Gut.",
+    "valueTrustDesc": "Seit 1990 vertrauen uns Kundinnen und Kunden in Heilbronn und weit dar\u00fcber hinaus. Dieses Vertrauen ist unser wertvollstes Gut.",
     "locationTitle": "Unser Standort",
-    "locationAddress": "Pixel Pretzels GmbH\nMusterstraße 42\n74072 Heilbronn\nDeutschland"
+    "locationAddress": "Pixel Pretzels GmbH\nMusterstra\u00dfe 42\n74072 Heilbronn\nDeutschland"
   },
   "contact": {
     "title": "Kontakt",
@@ -163,8 +204,8 @@
     "message": "Nachricht",
     "send": "Nachricht senden",
     "sent": "Nachricht gesendet!",
-    "sentDesc": "Vielen Dank für Ihre Nachricht. Wir werden uns schnellstmöglich bei Ihnen melden.",
-    "businessHours": "Öffnungszeiten",
+    "sentDesc": "Vielen Dank f\u00fcr Ihre Nachricht. Wir werden uns schnellstm\u00f6glich bei Ihnen melden.",
+    "businessHours": "\u00d6ffnungszeiten",
     "mondayFriday": "Mo-Fr: 9:00 - 18:00",
     "saturday": "Sa: 10:00 - 14:00",
     "sunday": "So: Geschlossen",
@@ -176,12 +217,12 @@
     "title": "Impressum",
     "company": "Pixel Pretzels GmbH",
     "represented": "Vertreten durch",
-    "ceo": "Max Mustermann, Geschäftsführer",
-    "address": "Musterstraße 42\n74072 Heilbronn\nDeutschland",
+    "ceo": "Max Mustermann, Gesch\u00e4ftsf\u00fchrer",
+    "address": "Musterstra\u00dfe 42\n74072 Heilbronn\nDeutschland",
     "contactTitle": "Kontakt",
     "registerCourt": "Amtsgericht Heilbronn, HRB 12345",
     "vatId": "USt-IdNr.: DE123456789",
-    "disputeResolution": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/. Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+    "disputeResolution": "Die Europ\u00e4ische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/. Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
   },
   "footer": {
     "company": "Unternehmen",
@@ -194,8 +235,8 @@
     "privacy": "Datenschutz",
     "terms": "AGB",
     "impressum": "Impressum",
-    "copyright": "© 2026 Pixel Pretzels GmbH. Alle Rechte vorbehalten.",
-    "madeIn": "Mit ❤ aus Heilbronn"
+    "copyright": "\u00a9 2026 Pixel Pretzels GmbH. Alle Rechte vorbehalten.",
+    "madeIn": "Mit \u2764 gebacken in Heilbronn"
   },
   "notFound": {
     "title": "Seite nicht gefunden",

@@ -1,5 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" fill="none">
-  <rect x="0" y="5" width="30" height="30" rx="6" fill="#1e3a5f"/>
-  <text x="7" y="27" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">PP</text>
-  <text x="38" y="27" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1e3a5f">Pixel Pretzels</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 40" fill="none">
+  <!-- Pretzel-shaped badge -->
+  <rect x="0" y="5" width="30" height="30" rx="6" fill="#C8842D"/>
+  <!-- Pixel-style PP text -->
+  <text x="4" y="26" font-family="monospace" font-size="16" font-weight="bold" fill="#FFFCF7" letter-spacing="-1">PP</text>
+  <!-- Pixel dots decoration -->
+  <rect x="25" y="8" width="3" height="3" fill="#3B82F6" rx="0.5"/>
+  <rect x="25" y="28" width="3" height="3" fill="#3B82F6" rx="0.5"/>
+  <!-- Brand name in monospace for pixel feel -->
+  <text x="36" y="26" font-family="monospace" font-size="18" font-weight="bold" fill="#C8842D">Pixel Pretzels</text>
 </svg>

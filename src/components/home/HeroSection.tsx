@@ -9,22 +9,15 @@ export default function HeroSection() {
   const t = useTranslations('home');
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-primary via-primary-dark to-[#0f1f33]">
+    <section className="relative overflow-hidden bg-gradient-to-br from-[#5C3A12] via-primary-dark to-primary">
       {/* Decorative geometric shapes */}
       <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
         {/* Large circle top-right */}
         <div className="absolute -top-24 -right-24 h-96 w-96 rounded-full border border-white/10" />
         <div className="absolute -top-12 -right-12 h-72 w-72 rounded-full border border-white/5" />
 
-        {/* Grid pattern */}
-        <div
-          className="absolute inset-0 opacity-[0.03]"
-          style={{
-            backgroundImage:
-              'linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)',
-            backgroundSize: '60px 60px',
-          }}
-        />
+        {/* Pixel grid pattern */}
+        <div className="absolute inset-0 pixel-grid-lg" />
 
         {/* Floating geometric shapes */}
         <div className="absolute top-1/4 left-[10%] h-20 w-20 rotate-45 rounded-lg border border-white/10 backdrop-blur-sm" />
@@ -48,7 +41,7 @@ export default function HeroSection() {
 
             <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl xl:text-7xl">
               {t('hero.title')}
-              <span className="mt-2 block bg-gradient-to-r from-accent to-yellow-300 bg-clip-text text-transparent">
+              <span className="mt-2 block bg-gradient-to-r from-[#E0A84C] to-[#fbbf24] bg-clip-text text-transparent">
                 {t('hero.titleHighlight')}
               </span>
             </h1>
@@ -114,7 +107,7 @@ export default function HeroSection() {
                         style={{
                           backgroundColor:
                             i % 3 === 0
-                              ? 'rgba(249,115,22,0.4)'
+                              ? 'rgba(200,132,45,0.4)'
                               : 'rgba(255,255,255,0.1)',
                         }}
                       />

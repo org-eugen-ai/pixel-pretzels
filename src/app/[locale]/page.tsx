@@ -15,8 +15,8 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'home' });
 
   return {
-    title: `Pixel Pretzels – ${t('heroTitle')}`,
-    description: t('heroSubtitle'),
+    title: `Pixel Pretzels – ${t('hero.title')}`,
+    description: t('hero.subtitle'),
   };
 }
 

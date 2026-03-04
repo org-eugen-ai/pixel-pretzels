@@ -28,7 +28,7 @@ export default async function TrustBadges() {
   ];
 
   return (
-    <section className="border-y border-border bg-background py-12 sm:py-16">
+    <section className="pretzel-border-top border-y border-border bg-background py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 gap-6 sm:gap-8 lg:grid-cols-4">
           {badges.map((badge) => {

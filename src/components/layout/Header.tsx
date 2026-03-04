@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 import { Search, ShoppingCart, Menu, X, Globe } from 'lucide-react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname, useRouter } from '@/i18n/navigation';
 import { useCartStore } from '@/stores/cartStore';
 import { useDebounce } from '@/hooks/useDebounce';
@@ -26,24 +26,16 @@ function Header() {
   const pathname = usePathname();
   const router = useRouter();
 
+  const currentLocale = useLocale() as 'de' | 'en';
+
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
-  const [currentLocale, setCurrentLocale] = useState<'de' | 'en'>('de');
 
   const searchInputRef = useRef<HTMLInputElement>(null);
   const debouncedSearch = useDebounce(searchQuery, 300);
 
   const totalItems = useCartStore((state) => state.totalItems());
-
-  // Detect current locale from pathname
-  useEffect(() => {
-    const segments = window.location.pathname.split('/');
-    const detectedLocale = segments[1];
-    if (detectedLocale === 'en' || detectedLocale === 'de') {
-      setCurrentLocale(detectedLocale);
-    }
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Focus search input when opened
   useEffect(() => {
@@ -59,9 +51,8 @@ function Header() {
     }
   }, [debouncedSearch]);
 
-  const handleLocaleSwitch = (locale: 'de' | 'en') => {
-    setCurrentLocale(locale);
-    router.replace(pathname, { locale });
+  const handleLocaleSwitch = (newLocale: 'de' | 'en') => {
+    router.replace(pathname, { locale: newLocale });
   };
 
   const handleSearchSubmit = (e: React.FormEvent) => {
@@ -75,7 +66,7 @@ function Header() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-40 bg-white shadow-sm">
+      <header className="fixed top-0 left-0 right-0 z-40 bg-background shadow-sm shadow-primary/5">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between gap-4">
             {/* Mobile menu button */}

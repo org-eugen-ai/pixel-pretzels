@@ -12,14 +12,10 @@ const categoryIcons: Record<CategorySlug, LucideIcon> = {
 };
 
 const categoryGradients: Record<CategorySlug, string> = {
-  notebooks:
-    'from-blue-600 to-indigo-700',
-  smartphones:
-    'from-violet-600 to-purple-700',
-  printers:
-    'from-emerald-600 to-teal-700',
-  accessories:
-    'from-amber-500 to-orange-600',
+  notebooks: 'from-[#8B5E1A] to-[#5C3A12]',
+  smartphones: 'from-[#3B82F6] to-[#2563EB]',
+  printers: 'from-[#C8842D] to-[#8B5E1A]',
+  accessories: 'from-[#E0A84C] to-[#C8842D]',
 };
 
 interface CategoryShowcaseProps {
